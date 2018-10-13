@@ -27,7 +27,6 @@ public class ConfigBase {
     }
 
     public void setupAllTable(boolean b) {
-        // 获取所有表格 返回一个HashMap<表格名, HashMap<序号, 数据>>
         HashMap allTable = new HashMap();
         for (String tableName : plugin.getConfig().getConfigurationSection("Table").getKeys(false)) {
             HashMap allData = getAllDataByTableName(tableName, b);
@@ -39,7 +38,6 @@ public class ConfigBase {
     }
 
     public HashMap getAllDataByTableName(String n, boolean b) {
-        // 获取所有数据 返回一个HashMap<序号, 数据>
         HashMap allData = new HashMap();
         Data data;
         int i = 0;
