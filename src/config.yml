@@ -1,0 +1,21 @@
+#KDataAPI - By kevinlovely QQ 3407053348
+
+MysqlConnection:
+
+  Host: 127.0.0.1
+  User: root
+  Password: yaohun520
+  Database: KDataAPI
+  Port: 3306
+
+Table:
+
+  data_main:
+
+    demo:
+      Type: INT
+      Default: 0
+
+    test:
+      Type: STRING
+      Default: "hello world"

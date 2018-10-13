@@ -1,0 +1,10 @@
+name: KDataAPI
+main: io.github.kevinlovely.kd.KDataAPI
+version: 1.0
+softdepend: [PlaceholderAPI]
+auther: kevinlovely
+website: https://github.com/kevinlovely
+commands:
+  kd:
+    description: KDataAPI
+    default: op
